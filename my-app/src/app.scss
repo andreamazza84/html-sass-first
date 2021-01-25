@@ -1,0 +1,40 @@
+$bgprimarycolor: #333;
+$primarycolor: #f7f7f7;
+$titlecolor: gold;
+$biggestfont: 30px;
+$mediumfont: 20px;
+$commonfont: 16px;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px 0;
+    background-color: #111;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: $bgprimarycolor;
+}
+h1, h2{
+    color: $titlecolor;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: $biggestfont;
+}
+h2{
+    font-size: $mediumfont;
+}
+p{
+    font-size: $commonfont;
+    color: $primarycolor;
+    text-align: justify;
+}
+
