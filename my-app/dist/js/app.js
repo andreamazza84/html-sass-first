@@ -12,10 +12,6 @@
 //3. create una semplice index.html con degli h2, h3 e paragrafi
 //4. applicate agli h2 e h3 lo stesso colore tramite una variabile.
 console.log("ciao");
-var user = {
-  name: 'Andrea',
-  surname: 'Mazza'
-};
 
 /***/ }),
 
